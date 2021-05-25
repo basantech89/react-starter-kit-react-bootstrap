@@ -1,0 +1,27 @@
+$theme-colors: (
+  "primary": #fe5000,
+  "white": #fdfdfd,
+  "gray-light": #f4f7f8,
+  "light": #f4f7f8,
+  "gray": #6c757d,
+  "gray-dark": #222222,
+  "secondary": #696b6f,
+  "success": #65bc65,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "dark": #0e7cbf,
+  "gray-mid": #ced4da,
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+  --color-disabled-text: #909090;
+  --color-background: #eff3f9;
+  --color-text: #2c303a;
+  --color-secondary-text: #5c7179;
+  --color-white: #ffffff;
+  --color-white-card: #00000014;
+  --color-grey-text: #696b6f;
+  --color-primary: #fe5000;
+}
